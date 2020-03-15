@@ -26,8 +26,8 @@ get '/keys' do
 end
 
 post '/keys' do
-	data_hash = json_params
-	data_hash.each {|key, value| $Redis.set(key, value) }
+  data_hash = json_params
+  data_hash.each {|key, value| $Redis.set(key, value) }
   status 201
 end
 
