@@ -23,7 +23,9 @@ curl http://localhost:4567/keys/:key_id
 ```
 
 Simplified things for demo purposes, in real app all endpoints will look like:
+```
 /api/v1/keys
 /api/v1/keys/:key_id
+```
 
-Also access to endpoints must be authorized
+Also access to endpoints must be authorized.
